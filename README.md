@@ -29,9 +29,11 @@ FOR obfuscation details on powershell scripts refer to https://github.com/t3l3ma
 * __Run the attack__
      - Go to your terminal, and run:
      <br>```python detect_users.py```<br>
-     You will see the available users with backdoor established. Make a note of the Hostname that you want to connect to.
+     <br><img src = "available users.png" width = "500"><br>
+     You will see the available users with backdoor established. Make a note of the Hostname that you want to connect to.<br>
      - To pop into the shell of the desired user, run the following command:
         ```python berzerk.py <HOSTNAME>```
+	<br><img src = "shell.png" width = "500"><br>
 
 ## Built with
 - Python
