@@ -8,7 +8,12 @@ n = len (sys.argv)
 try:
     ID = sys.argv[1]
 except:
+    print("Please provide a hostname in the command line arguments")
     sys.exit(1)
+
+print("Berzerk")
+print("Made By : github.com/anonymous300502/Berzerk")
+print("First Release: 09/04/2024, 1:15")
 
 @app.route("/berzerkget")
 def hello_world():
