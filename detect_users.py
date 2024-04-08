@@ -4,7 +4,7 @@ import threading
 lastlen = 0
 app = Flask(__name__)
 users = set()
-@app.route("/4ee2ce1e")
+@app.route("/berzerkget")
 def hello_world():
     global lastlen
     obj1 = request.headers.get('X-1412-93e6')
