@@ -1,14 +1,14 @@
 
 <p align = "center"><img src = "logo.png" width = "250"></p>
  <p align="left">
-	<h4 align="left"> Berzerk is a post exploitation persistence maintaining backdoor along with C2 (COMMAND &amp; CONTROL ) server developed using python's Flask framework. The powershell payload provided is currently undetectable by the latest updated version of windows defender on windows 11 as of 8th April 2024 22:00 IST if used with proper obfuscation techniques. 
+	<h4 align="left"> Berzerk is a post exploitation persistence maintaining backdoor along with C2 (COMMAND &amp; CONTROL ) server developed using python's Flask framework. Developed to be used only in post exploitation scenarios. The powershell payload provided is currently undetectable by the latest updated version of windows defender on windows 11 as of 8th April 2024 22:00 IST if used with proper obfuscation techniques. 
 FOR obfuscation details on powershell scripts refer to https://github.com/t3l3machus/PowerShell-Obfuscation-Bible 
 <h4></p>
 <p>
 <h5 align = "left"> **The program is still in early stages of development and implements only the basic functionality of a C2 server as of now, more features are expected to be added soon. Feel free to contribute</h5>
 </p>
 <p>
-<h5 align = "left"> **Please use this for educational or Red team purposes only, The authors are not liable for any misuse.</h5>
+<h5 align = "left"> **Please use this for educational or Red team purposes only and dont run the code and payload on computers you dont have permission to test, The authors are not liable for any misuse.</h5>
 </p>
 
 ## Files Included:
@@ -18,7 +18,7 @@ FOR obfuscation details on powershell scripts refer to https://github.com/t3l3ma
 
 ## Instructions to run
 * __Pre-requisites:__
-	-  Latest version of python and flask.
+	-  Latest version of python and flask. (KALI LINUX is required to use the interactive shell feature)
 
 * __Setup on the victim PC__
 	- Transfer the `berzerk.ps1` into the victim PC and preferably store it in the startup folder for future easy access, Change the IP and PORT as per your values
@@ -35,9 +35,13 @@ FOR obfuscation details on powershell scripts refer to https://github.com/t3l3ma
         ```python berzerk.py <HOSTNAME>```
 	<br><img src = "shell.png" width = "500"><br>
 
+ * __NOTE__
+      - This will only spawn a non interactive shell which will hang if you execute commands which spawns as interactie session such as 'cmd.exe' etc. TO use the interactive shell feature we have used a combination of a couple open source tools like netcat. For instructions on how to use the interactive shell refer to the [WiKi](https://github.com/anonymous300502/Berzerk/wiki)
+
 ## Built with
 - Python
 - Powershell
+- C# (C-Sharp)
 
 ## Contributors
 * [Manaswi Sharma](https://github.com/manaswii)
