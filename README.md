@@ -36,7 +36,7 @@ FOR obfuscation details on powershell scripts refer to https://github.com/t3l3ma
 	<br><img src = "shell.png" width = "500"><br>
 
  * __NOTE__
-      - This will only spawn a non interactive shell which will hang if you execute commands which spawns as interactie session such as 'cmd.exe' etc. TO use the interactive shell feature we have used a combination of a couple open source tools like netcat. For instructions on how to use the interactive shell refer to the [WiKi](https://github.com/anonymous300502/Berzerk/wiki)
+      - This will only spawn a non interactive shell which will hang if you execute commands which spawns as interactive session such as 'cmd.exe' etc. TO use the interactive shell feature we have used a combination of a couple open source tools like netcat. For instructions on how to use the interactive shell refer to the [WiKi](https://github.com/anonymous300502/Berzerk/wiki)
 
 ## Built with
 - Python
