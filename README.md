@@ -1,5 +1,5 @@
 
-<p align = "center"><img src = "logo.png" width = "250"></p>
+<p align = "center"><img src = "Sample_berzerk_photos/logo.png" width = "300"></p>
  <p align="left">
 	<h4 align="left"> Berzerk is a post exploitation persistence maintaining backdoor along with C2 (COMMAND &amp; CONTROL ) server developed using python's Flask framework. Developed to be used only in post exploitation scenarios. The powershell payload provided is currently undetectable by the latest updated version of windows defender on windows 11 as of 8th April 2024 22:00 IST if used with proper obfuscation techniques. 
 FOR obfuscation details on powershell scripts refer to https://github.com/t3l3machus/PowerShell-Obfuscation-Bible 
@@ -29,11 +29,11 @@ FOR obfuscation details on powershell scripts refer to https://github.com/t3l3ma
 * __Run the attack__
      - Go to your terminal, and run:
      <br>```python detect_users.py```<br>
-     <br><img src = "available users.png" width = "500"><br>
+     <br><img src = "Sample_berzerk_photos/available users.png" width = "500"><br>
      You will see the available users with backdoor established. Make a note of the Hostname that you want to connect to.<br>
      - To pop into the shell of the desired user, run the following command:
         ```python berzerk.py <HOSTNAME>```
-	<br><img src = "shell.png" width = "500"><br>
+	<br><img src = "Sample_berzerk_photos/shell.png" width = "500"><br>
 
  * __NOTE__
       - This will only spawn a non interactive shell which will hang if you execute commands which spawns as interactive session such as 'cmd.exe' etc. TO use the interactive shell feature we have used a combination of a couple open source tools like netcat. For instructions on how to use the interactive shell refer to the [WiKi](https://github.com/anonymous300502/Berzerk/wiki)
