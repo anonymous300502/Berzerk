@@ -25,7 +25,7 @@ FOR obfuscation details on powershell scripts refer to https://github.com/t3l3ma
 	-  Latest version of python and flask. (KALI LINUX is required to use the interactive shell feature)
 
 * __Setup on the victim PC__
-	- Transfer the `berzerk.ps1` into the victim PC and preferably store it in the startup folder for future easy access, Change the IP and PORT as per your values
+	- Transfer the `berzerk.ps1` into the victim PC and preferably store it in the startup folder for future easy access, Change the IP and PORT as per your values and make sure to use necessary obfuscation techniques to make sure the payload remains undetectable. 
 
 * __Setup on attacker PC__
   - Open your server in a terminal, go in the folder where the repository is cloned.
